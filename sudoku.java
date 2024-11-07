@@ -79,7 +79,7 @@ public class sudoku {
         };
 
         if (solveSudoku(grid)) {
-            System.out.println("Congratulation!!, Sudoku solved:");
+            System.out.println("\n**************Congratulations!!************** \n*************SUDOKU SOLVED BELOW************* \n");
             printSudoku(grid);
         } else {
             System.out.println("Sorry! ,No solution exists for the given Sudoku.");
